@@ -4,7 +4,7 @@ import App from "./App";
 describe("The App Component", () => {
   test("it renders", async () => {
     render(<App />);
-    const headerElement = await screen.findByText(/sdfsdfsdfdsfds/i);
+    const headerElement = await screen.findByText(/do/i);
     expect(headerElement).toBeInTheDocument();
   });
 });
